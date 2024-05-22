@@ -157,6 +157,7 @@ def main():
                     # df_list = [df, tmp_df]
                     # df = pd.concat([df for df in df_list if not df.empty])
 
+
         df.to_csv(f'./data/{company}.csv')
 
     driver.quit()
