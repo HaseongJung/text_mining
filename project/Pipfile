@@ -13,6 +13,8 @@ tqdm = "*"
 webdriver-manager = "*"
 newspaper3k = "*"
 lxml = {extras = ["html_clean"], version = "*"}
+mecab-ko-msvc = "*"
+mecab-ko-dic-msvc = "*"
 
 [dev-packages]
 
