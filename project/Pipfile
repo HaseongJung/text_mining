@@ -15,6 +15,7 @@ newspaper3k = "*"
 lxml = {extras = ["html_clean"], version = "*"}
 mecab-ko-msvc = "*"
 mecab-ko-dic-msvc = "*"
+dask = {extras = ["dataframe"], version = "*"}
 
 [dev-packages]
 
