@@ -3,6 +3,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://download.pytorch.org/whl/cu121"
+verify_ssl = false
+name = "pytorch"
+
 [packages]
 requests = "*"
 beautifulsoup4 = "*"
@@ -16,6 +21,18 @@ lxml = {extras = ["html_clean"], version = "*"}
 mecab-ko-msvc = "*"
 mecab-ko-dic-msvc = "*"
 dask = {extras = ["dataframe"], version = "*"}
+matplotlib = "*"
+gensim = "*"
+scipy = "==1.10.1"
+pyldavis = "*"
+pyro4 = "*"
+transformers = "*"
+torch = {version = "*", index = "pytorch"}
+torchvision = {version = "*", index = "pytorch"}
+torchaudio = {version = "*", index = "pytorch"}
+accelerate = "*"
+ipywidgets = "*"
+sentence-transformers = "*"
 
 [dev-packages]
 
