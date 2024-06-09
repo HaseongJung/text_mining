@@ -33,6 +33,12 @@ torchaudio = {version = "*", index = "pytorch"}
 accelerate = "*"
 ipywidgets = "*"
 sentence-transformers = "*"
+plotly = "*"
+nbformat = "*"
+ipykernel = "*"
+install = "*"
+statsmodels = "*"
+kaleido = "==0.1.0post1"
 
 [dev-packages]
 
